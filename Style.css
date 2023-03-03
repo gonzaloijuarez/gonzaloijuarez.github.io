@@ -1,0 +1,71 @@
+
+#UnPocoDeMi{
+  display: none;
+}
+
+#Estudiaste{
+  display: none;
+  }
+
+.nav.bg-secondary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+
+
+}
+
+#presentacion.container-fluid.text-center {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 100px;
+}
+
+h1.text-dark.tecnologia {
+
+  margin-bottom: 100px;
+}
+
+
+
+/* estas son las lineas de codigo para los links */
+
+a.nav-link:hover{
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .piedepagina{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+    text-decoration: underline;  
+    text-align: center;  
+    align-items: center;
+    }
+
+  .footergonzalo{
+    width: 100%;
+    font-weight: bold
+    
+  }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagenes/logo gj.jpg">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>CV GONZALO JUAREZ</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body> 
+<header>
+    <div class="container-fluid ">
+        <img class ="img-fluid" src="imagenes/GonzaloJuarez.png" alt="Presentacion de gonzalo juarez">
+    </div>
+    <div class="container-fluid">
+        <ul class="nav bg-secondary">
+            <li class="nav-item">
+            <a class="nav-link" href="#presentacion">Presentacion</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#experienciaLaboral">Experiencia Laboral</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#tecnologias">Tecnologias</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#redes">Contacto y Redes sociales</a>
+            </li>
+        </ul>
+    </div>
+
+</header>
+<main>
+    <div data-aos="zoom-in" id="presentacion" class="container-fluid text-center">
+        <h1 class="text-dark">Presentacion</h1>
+        <p>
+        Hola mi nombre es gonzalo juarez, naci en 1994 en cordoba capital argentina.
+        Me presento como una persona simpatica , sociable y sobre todo amante de la tecnologia, 
+        lo que me llevo a conocer la programacion , una actividad que saca lo mejor de mi
+        </p>
+        <div class="container p-3 my-3">
+            <button type="button" class="btn btn-center btn-dark unPocoDeMi" onclick="aparecer()">Un poco mas de mi</button>
+        </div>
+        <p id="UnPocoDeMi">
+        en lo que concierne a mi persona, me puedo describir como una persona empatica , 
+        trabajadora , curiosa y con capacidades para encontrar soluciones
+        de forma autogestiva.
+        </p>
+        <div class="container p-3 my-3">
+            <button type="button" class="btn btn-center btn-dark" onclick="ilustrar()" >¿Estudiaste Gonza?</button>
+        </div>
+        <p id="Estudiaste">
+        Soy un guia superior en turismo recibido, estudie la carrera en la ciudad de villa 
+        carlos paz. La carrera me dio cualidades como autocritica , jerarquizacion de la 
+        iformacion y sobre todo curiosidad sobre las cosas
+        </p>
+
+    </div>
+
+    <div data-aos="zoom-in" id ="experienciaLaboral" class="container p-3 my-3 text-center">
+        <h1 class="text-dark">Experiencia Laboral</h1>
+        <div class="container-fluid mt-5">
+            <div class="row">
+              <div data-aos="zoom-in" class="col-sm-4">
+                <img src="imagenes/hj.png"class = "img-fluid rounded p-2" alt="Howard Johnson Logo">
+                <h3>Recepcion / Area de ventas</h3>
+                <p>Dentro del area de recepcion me encargue de : facturacion, atencion al cliente, atencion telefonica, respuesta de consultas via mail y otros medios de comunicacion,</p>
+                <p>En ventas , me encargue mas en la parte de las reservas y consultas de los clientes , y poder aplicar criterios a la hora de vender habitaciones en fechas de alta demanda</p>
+              </div>
+              <div data-aos="zoom-in" data-aos-duration="1000" class="col-sm-4">
+                <img src="imagenes/Apex.png" class="img-fluid rounded p-2" alt="Apex Logo">
+                <h3>Vendedor</h3>
+                <p>Vendedor para una empresa de telecomunicaciones de Argentina , la empresa es Claro y me encargaba de generar clientes mediante portabilidad numerica ( cambio de compañia) </p>
+                <p>Con esta Experiencia logre desarrollar mejores cualidades para la venta</p>
+              </div>
+              <div data-aos="zoom-in" data-aos-duration="1500" class="col-sm-4 ">
+                <img src="imagenes/Vnglobal.jpg" class="img-fluid rounded p-5" alt="Vn logo">
+                <h3>Costumer Experiencie 3</h3>        
+                <p>Atencion al cliente de Banco Galicia Argentina con todos los sistemas del banco</p>
+                <p>Calculos de tasas , prestamos , tarjetas de credito , consultas sobre deudas, consultas relacionadas con compra en divisa extranjera, aplicacion de criterio para generar algun tipo de reclamo y lograr que la persona tenga una solucion.</p>
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <div data-aos="zoom-in" id="tecnologias" class="container p-5 my-5 text-center">
+        <h1 class="text-dark tecnologia">Tecnologias</h1>
+        <div class="row">
+            <div data-aos="flip-up" class="col-sm-3">
+              <img src="imagenes/Boostrap.png" class="img-fluid" width="250px"alt="bootstrap">
+            </div>
+            <div data-aos="flip-up" data-aos-duration="1000" class="col-sm-3">
+              <img src="imagenes/HTML5_logo_and_wordmark.svg.png" class="img-fluid" width="160px" alt="HTML Logo">
+            </div>
+            <div data-aos="flip-up" data-aos-duration="2000" class="col-sm-3 ">
+              <img src="imagenes/CSS3_logo_and_wordmark.svg.png" class="img-fluid" width="110px" alt="css Logo">
+            </div>
+            <div data-aos="flip-up" data-aos-duration="3000" class="col-sm-3 ">
+                <img src="imagenes/JavaScript-logo.png" class="img-fluid" alt="JS Logo">
+              </div>
+          </div>
+    </div>
+
+    <div data-aos="zoom-in" id="redes" class="container-fluid text-center">
+      <h1 class="text-dark">Redes Socilales - Contacto</h1>
+        <div>
+          <div class="row">
+            <div data-aos="fade-right" class="col-sm-4 rounded bg-info">
+              
+                <a href="https://www.linkedin.com/in/gonzalo-ignacio-juarez-linares" target="_blank" ><img src="imagenes/linkedinlogo.png" class="img-fluid" width="100px" alt="linkedinlogo logo">
+                <h1>linkedin</h1>
+                <p>Mi historial como profesional</p></a>
+
+            </div>
+            <div data-aos="fade-right" class="col-sm-4 rounded bg-warning">
+              
+                <a href="mailto:gi.juarezlinares@gmail.com"><img src="imagenes/gmaillogo.png" class="img-fluid" width="150px" alt="gmail logo">
+                <h1>Email</h1>
+                <p>Enviarme un mail.</p></a>
+              
+            </div>
+            <div data-aos="fade-right" class="col-sm-4 rounded bg-dark">
+              
+                <a href="https://github.com/gonzaloijuarez" target="_blank"><img src="imagenes/GitHublogo.png" class="img-fluid" width="100px" alt="Github logo">
+                <h1>Git Hub</h1>
+                <p>Repositorio personal.</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</main>
+
+
+<footer class="piedepagina">
+
+<p class="footergonzalo">Cordoba. Argentina, 2023 Gonzalo Ignacio Juarez Todos los derechos reservados. </p>
+
+</footer>
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration : 500,
+    once:false
+  });
+</script>
+
+</html>

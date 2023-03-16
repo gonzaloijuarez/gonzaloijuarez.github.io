@@ -1,4 +1,3 @@
-
 #UnPocoDeMi{
   display: none;
 }
@@ -69,3 +68,11 @@ a:link {
     font-weight: bold
     
   }
+
+  @media only screen and (max-width: 768px) {
+    .nav.bg-secondary{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    }

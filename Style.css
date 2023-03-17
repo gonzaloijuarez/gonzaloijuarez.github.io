@@ -1,3 +1,4 @@
+
 #UnPocoDeMi{
   display: none;
 }
@@ -36,7 +37,6 @@ a.nav-link:hover{
   text-decoration: none;
   transition: 1s;
 }
-
 a:link {
     color: white;
     background-color: transparent;
@@ -51,6 +51,7 @@ a:link {
     color: black;
     background-color: transparent;
     text-decoration: underline;
+    transition: 1s;
   }
 
   .piedepagina{
@@ -68,11 +69,17 @@ a:link {
     font-weight: bold
     
   }
-
+  
   @media only screen and (max-width: 768px) {
     .nav.bg-secondary{
       width: 100%;
       flex-direction: column;
       align-items: center;
+    }
+    .img-fluid{
+      margin: 10px 10px;
+      padding: 10px;
+      
+      
     }
     }
